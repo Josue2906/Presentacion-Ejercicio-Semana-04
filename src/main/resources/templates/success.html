@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Exito</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulario Enviado con Éxito</h1>
+        <p>Nombre: <span th:text="${user.name}"></span></p>
+        <p>Apellido Paterno: <span th:text="${user.paternalLastName}"></span></p>
+        <p>Apellido Materno: <span th:text="${user.maternalLastName}"></span></p>
+        <p>Fecha de Nacimiento: <span th:text="${user.birthDate}"></span></p>
+        <p>Lugar de Residencia: <span th:text="${user.residencePlace}"></span></p>
+        <p>Edad: <span th:text="${user.age}"></span></p>
+        <p>Teléfono: <span th:text="${user.phone}"></span></p>
+        <p>Email: <span th:text="${user.email}"></span></p>
+    </body>
+</html>
